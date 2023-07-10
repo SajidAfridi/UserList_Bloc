@@ -14,6 +14,5 @@ class DeleteUser extends UserListEvent {
 }
 class UpdateUser extends UserListEvent{
   final User user;
-  //userListBloc(context).add(UpdateUser(user: user));
   UpdateUser({required this.user});
 }
